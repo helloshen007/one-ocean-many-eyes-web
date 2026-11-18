@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <!-- Original project vector artwork, 2026-11-12. Conceptual marine life, not a species record or scientific image. -->
+  <defs>
+    <linearGradient id="water" x2="1" y2="1"><stop stop-color="#052b42"/><stop offset=".6" stop-color="#073e59"/><stop offset="1" stop-color="#021c32"/></linearGradient>
+    <radialGradient id="light"><stop stop-color="#5fbcba" stop-opacity=".26"/><stop offset="1" stop-color="#134c69" stop-opacity="0"/></radialGradient>
+    <linearGradient id="bell" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#e7d1ac" stop-opacity=".7"/><stop offset=".55" stop-color="#8eb9b9" stop-opacity=".43"/><stop offset="1" stop-color="#d9a99b" stop-opacity=".64"/></linearGradient>
+    <linearGradient id="ribbon" x2=".5" y2="1"><stop stop-color="#c8ddd3" stop-opacity=".75"/><stop offset="1" stop-color="#78b5be" stop-opacity="0"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="32"/></filter>
+    <path id="rib" d="M844 151Q744 225 712 363Q761 401 832 405"/>
+  </defs>
+  <path fill="url(#water)" d="M0 0h1280v720H0z"/>
+  <ellipse cx="844" cy="307" rx="510" ry="400" fill="url(#light)"/>
+  <path d="M923-50L660 690M1104-50L799 720" stroke="#77bcb7" stroke-width="90" opacity=".035" filter="url(#soft)"/>
+  <g fill="#b8ded7" opacity=".25"><circle cx="182" cy="211" r="2"/><circle cx="310" cy="487" r="1.5"/><circle cx="513" cy="94" r="2.5"/><circle cx="1040" cy="130" r="2"/><circle cx="1133" cy="530" r="3"/><circle cx="667" cy="594" r="2"/><circle cx="1002" cy="639" r="1"/><circle cx="755" cy="89" r="1"/><circle cx="1232" cy="337" r="2"/><circle cx="377" cy="341" r="1.5"/></g>
+  <g transform="rotate(10 845 330)">
+    <path d="M631 350C638 224 732 133 844 147C967 140 1057 243 1060 351Q1007 422 845 416Q700 421 631 350Z" fill="url(#bell)" stroke="#d7e8dc" stroke-opacity=".4" stroke-width="2"/>
+    <path d="M631 350Q675 377 704 354Q736 389 768 367Q806 402 843 374Q880 402 916 368Q951 388 982 355Q1014 379 1060 351" fill="none" stroke="#efd4bc" stroke-width="4" opacity=".6"/>
+    <g fill="none" stroke="#e1d6b9" stroke-opacity=".22" stroke-width="1.5"><use href="#rib"/><use href="#rib" transform="translate(100 0) scale(.88 1)"/><use href="#rib" transform="translate(247 0) scale(.7 1)"/><use href="#rib" transform="translate(1688 0) scale(-1 1)"/><path d="M844 149V397"/></g>
+    <g fill="none" stroke="url(#ribbon)" stroke-linecap="round"><path d="M747 389C697 456 825 480 753 557S808 637 760 706" stroke-width="13"/><path d="M810 405C769 469 889 493 819 567S855 661 833 719" stroke-width="20"/><path d="M872 407C941 463 825 502 889 573S875 662 920 713" stroke-width="16"/><path d="M939 392C1007 450 892 508 967 583S964 674 1002 725" stroke-width="10"/></g>
+    <g fill="none" stroke="#acd5d2" stroke-opacity=".35"><path d="M670 371Q605 471 667 542T641 698"/><path d="M711 397Q675 503 727 610T699 744"/><path d="M991 386Q1062 473 1025 555T1084 732"/><path d="M1030 369Q1130 468 1085 578T1146 732"/></g>
+    <ellipse cx="845" cy="360" rx="114" ry="33" fill="#cb9e9f" opacity=".18"/>
+  </g>
+  <path d="M0 647Q260 616 493 651T938 655T1280 644V720H0Z" fill="#041e32" opacity=".35"/>
+</svg>

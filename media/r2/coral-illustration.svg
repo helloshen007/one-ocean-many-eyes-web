@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <!-- Original project vector artwork. Simplified deep-water coral habitat, not expedition photography or measured ecology. -->
+  <defs>
+    <linearGradient id="sea" x2=".8" y2="1"><stop stop-color="#0b4b62"/><stop offset="1" stop-color="#031e32"/></linearGradient>
+    <linearGradient id="rock" x2="0" y2="1"><stop stop-color="#35616a"/><stop offset="1" stop-color="#062d3d"/></linearGradient>
+    <g id="fan" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M0 0C-3-58 0-124 0-220M0-35C-43-67-77-109-99-155M0-72C47-100 82-133 102-180M0-110C-27-137-48-167-58-205M0-154C26-177 39-207 46-240M-39-78L-70-154M-72-114L-106-128M42-102L55-171M76-139L111-153M-27-140L-28-202M27-181L19-225" stroke-width="5"/><g stroke-width="2"><path d="M-99-155l-24-28m24 28-4-36M-70-154l-24-26m24 26 3-34M-58-205l-16-24m16 24 5-31M-28-202l-16-22m16 22 8-27M0-220l-12-26m12 26 12-30M46-240l-6-25m6 25 18-20M55-171l-5-33m5 33 19-22M102-180l-1-32m1 32 23-18M111-153l23-6m-23 6 16-24"/></g></g>
+  </defs>
+  <path fill="url(#sea)" d="M0 0h1280v720H0z"/>
+  <path d="M100-80L511 560L720 620L501-80Z" fill="#8ac7c9" opacity=".035"/>
+  <path d="M0 557L132 523L245 551L412 505L565 562L723 527L850 560L1050 517L1280 551V720H0Z" fill="url(#rock)"/>
+  <path d="M0 617Q184 557 363 605T724 617T1072 594T1280 622V720H0Z" fill="#082c3b"/>
+  <use href="#fan" transform="translate(345 581) scale(1.65 1.6)" stroke="#a9d0c7"/>
+  <use href="#fan" transform="translate(925 578) scale(1.35 1.4)" stroke="#bb9b8b"/>
+  <use href="#fan" transform="translate(620 620) scale(.9 .9)" stroke="#77afb7"/>
+  <use href="#fan" transform="translate(1190 620) scale(.78 .8)" stroke="#94c2b7"/>
+  <use href="#fan" transform="translate(90 595) scale(.6 .65)" stroke="#6da3ae"/>
+  <g fill="#d9e7d9" opacity=".55"><circle cx="225" cy="224" r="3"/><circle cx="505" cy="277" r="2"/><circle cx="694" cy="155" r="2.5"/><circle cx="834" cy="350" r="2"/><circle cx="1098" cy="234" r="2"/><circle cx="416" cy="415" r="2"/><circle cx="743" cy="448" r="3"/></g>
+  <g fill="none" stroke="#88b9bb" opacity=".2"><path d="M0 180Q180 120 410 190T850 170T1280 190"/><path d="M0 290Q180 230 410 300T850 280T1280 300"/></g>
+</svg>

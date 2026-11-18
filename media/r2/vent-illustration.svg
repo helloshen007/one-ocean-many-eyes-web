@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <!-- Original project vector artwork. Conceptual vent habitat; no named site, species, measured temperature or scale. -->
+  <defs>
+    <linearGradient id="sea" x2=".7" y2="1"><stop stop-color="#0b425b"/><stop offset="1" stop-color="#021b2c"/></linearGradient>
+    <linearGradient id="stone" x2="1" y2=".3"><stop stop-color="#163e4b"/><stop offset=".5" stop-color="#5d7676"/><stop offset="1" stop-color="#183b49"/></linearGradient>
+    <linearGradient id="plume" x2=".2" y2="1"><stop stop-color="#152e41" stop-opacity="0"/><stop offset=".65" stop-color="#102436" stop-opacity=".9"/><stop offset="1" stop-color="#1a2c39"/></linearGradient>
+  </defs>
+  <path fill="url(#sea)" d="M0 0h1280v720H0z"/>
+  <path d="M0 564L163 520L295 562L424 532L576 575L785 531L997 559L1132 520L1280 552V720H0Z" fill="#133744"/>
+  <path d="M0 641L192 590L331 634L517 595L711 633L968 590L1280 625V720H0Z" fill="#092b39"/>
+  <path d="M698 552L709 391L727 367L725 272L749 254L772 270L777 354L797 377L812 552Z" fill="url(#stone)" stroke="#658185" stroke-opacity=".45"/>
+  <path d="M841 575L855 439L869 416L873 357L902 348L922 371L922 449L945 477L953 575Z" fill="url(#stone)"/>
+  <path d="M468 593L483 503L496 476L498 407L521 394L541 412L548 503L568 593Z" fill="url(#stone)"/>
+  <path d="M731 264C689 217 770 196 716 148C653 102 735 73 688 12L878-35C803 34 890 65 826 119C773 163 834 205 764 269Z" fill="url(#plume)"/>
+  <path d="M880 356C855 310 911 295 872 251C846 220 877 193 856 156L953 100C936 176 983 214 943 253C912 284 948 318 908 356Z" fill="url(#plume)" opacity=".85"/>
+  <path d="M507 407C472 364 536 344 498 305Q468 264 492 226L565 205Q530 269 565 311T530 407Z" fill="url(#plume)" opacity=".65"/>
+  <g fill="none" stroke="#a8c3bb" opacity=".3"><path d="M737 286L748 524M764 376L783 526M875 444L868 548M914 464L932 557M510 430L520 568"/></g>
+  <g fill="#b0c8b3" opacity=".65"><ellipse cx="685" cy="567" rx="52" ry="9"/><ellipse cx="824" cy="585" rx="42" ry="8"/><ellipse cx="555" cy="608" rx="48" ry="7"/></g>
+  <g fill="#d3ddd0"><circle cx="728" cy="422" r="3"/><circle cx="779" cy="447" r="2"/><circle cx="741" cy="485" r="3"/><circle cx="886" cy="483" r="2"/><circle cx="907" cy="534" r="3"/><circle cx="517" cy="522" r="2"/></g>
+  <g fill="none" stroke="#8fbdb6" stroke-width="3" stroke-linecap="round"><path d="M322 594q-12-25-4-56m4 31-17-12m16 1 14-17M1031 609q-5-36 10-65m-12 37-19-16m22-3 22-13M395 630q-4-25 7-46"/></g>
+</svg>

@@ -1,0 +1,250 @@
+{
+  "checkedOn": "2026-11-12",
+  "authorization": "Final R2 remediation authorized replacement of unverified imagery with original SVG/CSS or verified media. Active external assets use their specific source terms and attribution; no new rights-holder permission is claimed.",
+  "items": [
+    {
+      "id": "ocean-ship",
+      "files": [
+        "ocean-ship.webm",
+        "ocean-ship.jpg"
+      ],
+      "title": "NOAA Ship Okeanos Explorer — ship tour",
+      "creator": "NOAA Office of Ocean Exploration and Research, Gulf of America 2018 (current source-page credit; individual camera operator not listed)",
+      "sourcePage": "https://oceanexplorer.noaa.gov/technology/noaa-ship-okeanos-explorer/",
+      "downloadUrl": "https://oceanexplorer.noaa.gov/wp-content/uploads/2017/08/tour-1280x720-1.mp4",
+      "originalFormat": "MP4; retained original: node_modules/.cache/b0-05b-r2/okeanos-tour.mp4",
+      "usedAt": "Home background video and fallback poster; ocean-ship.jpg also illustrates the Observing entry. It shows Okeanos Explorer, not an Argo deployment.",
+      "edit": "Source 18.2–25.1 seconds; playback rate 0.65; 1280×720 VP9 WebM, silent, 0.35-second end dissolve. JPEG poster from source 18.2 seconds. Recovered from the existing encode.mjs, not regenerated. Responsive CSS cover crop.",
+      "licenceUrl": "https://oceanexplorer.noaa.gov/faqs/",
+      "attribution": "Video courtesy of the NOAA Office of Ocean Exploration and Research, Gulf of America 2018. Edited excerpt; no NOAA endorsement implied.",
+      "status": {
+        "zh": "具体源页、片源地址、署名与一般使用条款已核对；未发现单独版权例外。",
+        "en": "Specific page, source URL, credit and general reuse terms checked; no separate copyright exception found.",
+        "ru": "Проверены страница, адрес видео, авторство и общие условия использования; отдельное ограничение не обнаружено."
+      },
+      "kind": "verified-external"
+    },
+    {
+      "id": "earth",
+      "files": [
+        "earth-original.jpg"
+      ],
+      "title": "Cupola Over the Caribbean — ISS062-E-117852, 30 March 2020",
+      "creator": "Expedition 62 crew; ISS Crew Earth Observations Facility and Earth Science and Remote Sensing Unit, NASA Johnson Space Center",
+      "sourcePage": "https://science.nasa.gov/earth/earth-observatory/cupola-over-the-caribbean-147296/",
+      "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/147000/147296/iss062e117852_lrg.jpg",
+      "originalFormat": "JPEG; retained original: node_modules/.cache/b0-05b-r2/earth-original.jpg (4,853,196 bytes)",
+      "usedAt": "Finale background photograph in all three narrative stages",
+      "edit": "Existing resized JPEG; responsive CSS cover crop and tonal overlay. Source itself reports cropping, contrast enhancement and lens-artifact removal. Exact local resize parameters were not recorded. No time cut.",
+      "licenceUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "attribution": "NASA / ISS Crew Earth Observations Facility / Earth Science and Remote Sensing Unit, Johnson Space Center. Astronaut photograph ISS062-E-117852. No NASA endorsement implied.",
+      "status": {
+        "zh": "已核对照片编号、拍摄日期、署名与教育/信息用途条款；具体源页未标注第三方图片版权。",
+        "en": "Photograph ID, acquisition date, credit and educational/informational-use terms checked; no third-party image copyright identified on the source page.",
+        "ru": "Проверены номер снимка, дата, авторство и условия учебного/информационного использования; отдельные права третьих лиц на странице не указаны."
+      },
+      "kind": "verified-external"
+    },
+    {
+      "id": "natural-earth",
+      "files": [
+        "natural-earth.jpg"
+      ],
+      "title": "Natural Earth I with Shaded Relief and Water — NE1_50M_SR_W, v3.2.0",
+      "creator": "Natural Earth; Tom Patterson, Nathaniel Vaughn Kelso and contributors",
+      "sourcePage": "https://www.naturalearthdata.com/downloads/50m-raster-data/50m-natural-earth-1/",
+      "downloadUrl": "https://naciscdn.org/naturalearth/50m/raster/NE1_50M_SR_W.zip",
+      "originalFormat": "ZIP / GeoTIFF, geographic WGS84; retained under node_modules/.cache/b0-05b-r2/natural-earth/",
+      "usedAt": "Map static world relief; Home Mapping chapter entry image",
+      "edit": "Existing 2400×1200 JPEG derivative of GeoTIFF; Map places the whole world into a 2:1 equirectangular SVG. Home uses CSS cover crop. Exact conversion settings were not recovered. No time cut.",
+      "licenceUrl": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "attribution": "Made with Natural Earth. Credit is voluntary under the source terms.",
+      "status": {
+        "zh": "具体产品、保留的原始 GeoTIFF、WGS84 说明及公共领域条款已核对。此底图不是实时观测或标定水深图。",
+        "en": "Specific product, retained GeoTIFF, WGS84 readme and public-domain terms checked. This is neither live observation nor a calibrated depth chart.",
+        "ru": "Проверены продукт, сохранённый GeoTIFF, описание WGS84 и общественное достояние. Это не текущие наблюдения и не измерительная карта глубин."
+      },
+      "kind": "verified-external"
+    },
+    {
+      "id": "ocean-life-illustration",
+      "kind": "original-illustration",
+      "files": [
+        "ocean-life-illustration.svg"
+      ],
+      "title": "Conceptual marine life",
+      "creator": "ONE OCEAN, MANY EYES project · original SVG artwork, 2026-11-12",
+      "sourcePage": "/one-ocean-many-eyes-web/media/r2/credits.html#ocean-life-illustration",
+      "downloadUrl": "/one-ocean-many-eyes-web/media/r2/ocean-life-illustration.svg",
+      "originalFormat": "Hand-authored SVG source, 1280×720 viewBox",
+      "usedAt": "Home Marine Life entry; Atlas static background",
+      "edit": "Original vector paths and gradients authored for this project; responsive CSS crop. No external image, video, embedded raster, named species, observed site or measured scale.",
+      "licenceUrl": "/one-ocean-many-eyes-web/media/r2/credits.html#original-work",
+      "attribution": "ONE OCEAN, MANY EYES · Original teaching illustration, not scientific imagery.",
+      "status": {
+        "zh": "项目原创 SVG，无外部影像素材；可随项目源代码交付。为概念示意，非科研照片或观测数据。",
+        "en": "Original project SVG with no external imagery; included with project source. Conceptual illustration, not a scientific photograph or observation.",
+        "ru": "Оригинальный SVG проекта без сторонних изображений; входит в исходные материалы проекта. Учебная схема, не научная фотография и не наблюдение."
+      }
+    },
+    {
+      "id": "coral-illustration",
+      "kind": "original-illustration",
+      "files": [
+        "coral-illustration.svg"
+      ],
+      "title": "Conceptual deep-water coral habitat",
+      "creator": "ONE OCEAN, MANY EYES project · original SVG artwork, 2026-11-12",
+      "sourcePage": "/one-ocean-many-eyes-web/media/r2/credits.html#coral-illustration",
+      "downloadUrl": "/one-ocean-many-eyes-web/media/r2/coral-illustration.svg",
+      "originalFormat": "Hand-authored SVG source, 1280×720 viewBox",
+      "usedAt": "Atlas Marine Life — coral habitat",
+      "edit": "Original vector paths and gradients authored for this project; responsive CSS crop. No external image, video, embedded raster, named species, observed site or measured scale.",
+      "licenceUrl": "/one-ocean-many-eyes-web/media/r2/credits.html#original-work",
+      "attribution": "ONE OCEAN, MANY EYES · Original teaching illustration, not scientific imagery.",
+      "status": {
+        "zh": "项目原创 SVG，无外部影像素材；可随项目源代码交付。为概念示意，非科研照片或观测数据。",
+        "en": "Original project SVG with no external imagery; included with project source. Conceptual illustration, not a scientific photograph or observation.",
+        "ru": "Оригинальный SVG проекта без сторонних изображений; входит в исходные материалы проекта. Учебная схема, не научная фотография и не наблюдение."
+      }
+    },
+    {
+      "id": "vent-illustration",
+      "kind": "original-illustration",
+      "files": [
+        "vent-illustration.svg"
+      ],
+      "title": "Conceptual hydrothermal-vent habitat",
+      "creator": "ONE OCEAN, MANY EYES project · original SVG artwork, 2026-11-12",
+      "sourcePage": "/one-ocean-many-eyes-web/media/r2/credits.html#vent-illustration",
+      "downloadUrl": "/one-ocean-many-eyes-web/media/r2/vent-illustration.svg",
+      "originalFormat": "Hand-authored SVG source, 1280×720 viewBox",
+      "usedAt": "Atlas Marine Life — vent habitat",
+      "edit": "Original vector paths and gradients authored for this project; responsive CSS crop. No external image, video, embedded raster, named species, observed site or measured scale.",
+      "licenceUrl": "/one-ocean-many-eyes-web/media/r2/credits.html#original-work",
+      "attribution": "ONE OCEAN, MANY EYES · Original teaching illustration, not scientific imagery.",
+      "status": {
+        "zh": "项目原创 SVG，无外部影像素材；可随项目源代码交付。为概念示意，非科研照片或观测数据。",
+        "en": "Original project SVG with no external imagery; included with project source. Conceptual illustration, not a scientific photograph or observation.",
+        "ru": "Оригинальный SVG проекта без сторонних изображений; входит в исходные материалы проекта. Учебная схема, не научная фотография и не наблюдение."
+      }
+    }
+  ],
+  "excludedOriginals": [
+    {
+      "id": "deep-life",
+      "files": [
+        "deep-life.webm",
+        "deep-life.jpg"
+      ],
+      "title": "NOAA Ocean Exploration homepage montage — oceanExploration-hero-1280",
+      "creator": "NOAA Ocean Exploration; individual shot author and expedition not identified on the homepage",
+      "sourcePage": "https://oceanexplorer.noaa.gov/",
+      "downloadUrl": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/08/oceanExploration-hero-1280.mp4",
+      "originalFormat": "MP4; retained original: node_modules/.cache/b0-05b-r2/noaa-hero.mp4",
+      "usedAt": "Atlas background video/poster; Home Marine Life entry image",
+      "edit": "Source 76–86 seconds; playback rate 0.8; 1280×720 VP9 WebM, silent, 0.35-second end dissolve. JPEG poster at source 76 seconds. Recovered from encode.mjs; responsive CSS cover crop.",
+      "licenceUrl": "https://oceanexplorer.noaa.gov/faqs/",
+      "attribution": "NOAA Ocean Exploration homepage montage; edited excerpt. Shot-specific credit remains unverified.",
+      "pending": true,
+      "status": {
+        "zh": "待核验：具体蒙太奇与片段已定位，但首页未列出 76–86 秒镜头的作者和逐镜头权利信息。不能宣称所有第三方权利已清理。",
+        "en": "Pending: the montage and excerpt are identified, but the homepage provides no shot-level author or rights record for 76–86 seconds. Third-party rights clearance is not established.",
+        "ru": "Требует проверки: монтаж и фрагмент установлены, но для кадров 76–86 с не указаны автор и отдельные права. Права третьих лиц не подтверждены."
+      },
+      "uploadAllowed": false,
+      "active": false,
+      "replacedBy": [
+        "ocean-life-illustration.svg"
+      ],
+      "relatedFiles": [],
+      "disposition": "Retained unchanged locally for audit only; excluded from commit whitelist, candidate tree, screenshots, PR attachments and release."
+    },
+    {
+      "id": "bigelow",
+      "files": [
+        "bigelow.jpg"
+      ],
+      "title": "Aerial view of NOAA Ship Henry B. Bigelow",
+      "creator": "NOAA; individual photographer not listed",
+      "sourcePage": "https://oceanexplorer.noaa.gov/technology/noaa-ship-bigelow/",
+      "downloadUrl": "https://oceanexplorer.noaa.gov/wp-content/uploads/2018/09/bigelow2-hires.jpg",
+      "originalFormat": "JPEG; retained original: node_modules/.cache/b0-05b-r2/bigelow.jpg (5,286,924 bytes)",
+      "usedAt": "Home Observing chapter entry image",
+      "edit": "Existing 2400×1599 JPEG derivative, displayed with CSS cover crop. Exact previous resize parameters were not recorded. Original embedded XMP is preserved verbatim in bigelow-source.xmp; derivative lacks embedded XMP.",
+      "licenceUrl": "https://oceanexplorer.noaa.gov/faqs/",
+      "attribution": "Aerial view of NOAA Ship Henry B. Bigelow. Image courtesy of NOAA.",
+      "status": {
+        "zh": "源页署名及原片 XMP 已核对；原始元数据随 bigelow-source.xmp 交付。发布前确认旁存方式满足来源的元数据保留要求。",
+        "en": "Source credit and original XMP checked; original metadata accompanies the image as bigelow-source.xmp. Confirm sidecar preservation is acceptable before publication.",
+        "ru": "Проверены авторство и исходные XMP; метаданные сохранены в bigelow-source.xmp. До публикации следует подтвердить допустимость отдельного файла метаданных."
+      },
+      "pending": true,
+      "uploadAllowed": false,
+      "active": false,
+      "replacedBy": [
+        "ocean-ship.jpg"
+      ],
+      "relatedFiles": [
+        "bigelow-source.xmp"
+      ],
+      "disposition": "Retained unchanged locally for audit only; excluded from commit whitelist, candidate tree, screenshots, PR attachments and release."
+    },
+    {
+      "id": "coral-garden",
+      "files": [
+        "coral-garden.jpg"
+      ],
+      "title": "Coral Garden — Dive 02, 2019 Southeastern U.S. Deep-sea Exploration",
+      "creator": "NOAA Ocean Exploration, 2019 Southeastern U.S. Deep-sea Exploration",
+      "sourcePage": "https://oceanexplorer.noaa.gov/multimedia/okeanos-explorations-ex1907-dailyupdates-nov2-media-garden/",
+      "downloadUrl": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/05/garden-hires.jpg",
+      "originalFormat": "JPEG; existing local 640×360 version retains embedded XMP",
+      "usedAt": "Atlas Marine Life — deep-water coral habitat",
+      "edit": "Existing small source version; CSS cover crop. No time cut. Current source page offers a larger version; the former small download URL is no longer resolved, so byte-for-byte original URL matching remains unverified.",
+      "licenceUrl": "https://oceanexplorer.noaa.gov/faqs/",
+      "attribution": "NOAA Ocean Exploration, 2019 Southeastern U.S. Deep-sea Exploration.",
+      "status": {
+        "zh": "具体照片、任务、署名与使用条款已对应；旧小图下载地址的逐字节追溯待核验。",
+        "en": "Specific image, expedition, credit and reuse terms matched; byte-for-byte provenance of the former small download remains unverified.",
+        "ru": "Установлены изображение, экспедиция, авторство и условия; побайтовое соответствие прежней уменьшенной версии не подтверждено."
+      },
+      "pending": true,
+      "uploadAllowed": false,
+      "active": false,
+      "replacedBy": [
+        "coral-illustration.svg"
+      ],
+      "relatedFiles": [],
+      "disposition": "Retained unchanged locally for audit only; excluded from commit whitelist, candidate tree, screenshots, PR attachments and release."
+    },
+    {
+      "id": "vent",
+      "files": [
+        "vent.jpg"
+      ],
+      "title": "Hydrothermal-vent image — local 800×450 photograph",
+      "creator": "Attributed in the previous implementation to NOAA Ocean Exploration; exact image-level attribution not recovered",
+      "sourcePage": "https://www.fisheries.noaa.gov/pacific-islands/habitat-conservation/mariana-trench-marine-national-monument",
+      "downloadUrl": null,
+      "originalFormat": "JPEG, 800×450; embedded Adobe editing metadata retained",
+      "usedAt": "Atlas Marine Life — hydrothermal vent habitat",
+      "edit": "Existing JPEG; CSS cover crop. No new edits. Original download URL and exact crop history were not recovered.",
+      "licenceUrl": "https://oceanexplorer.noaa.gov/faqs/",
+      "attribution": "Provisional attribution: NOAA Ocean Exploration. The linked NOAA page documents a related vent photograph; it is not proof that it is this exact JPEG.",
+      "pending": true,
+      "status": {
+        "zh": "待核验：未建立本地 JPEG 与具体原图的一一对应。相关机构或题材相同不能作为该文件已获许可的证明；发布前必须补证。",
+        "en": "Pending: no one-to-one match to this exact local JPEG. A related institution or subject is not proof of permission for this file; resolve before publication.",
+        "ru": "Требует проверки: точный источник локального JPEG не установлен. Совпадение организации или темы не подтверждает права на файл; проверить до публикации."
+      },
+      "uploadAllowed": false,
+      "active": false,
+      "replacedBy": [
+        "vent-illustration.svg"
+      ],
+      "relatedFiles": [],
+      "disposition": "Retained unchanged locally for audit only; excluded from commit whitelist, candidate tree, screenshots, PR attachments and release."
+    }
+  ]
+}
